@@ -5,7 +5,7 @@ let frutas2 = ['🍇','🍈','🍉','🍊','🍋','🍌','🍍','🥭','🍎'];
 
 let frutas_combinadas = frutas.concat(frutas2);
 
-frutas_combinadas.sort(function(){return Math.random() });
+frutas_combinadas.sort(function(){return 0.5 - Math.random() });
 
 function agregar_datos_al_DOM(){
 frutas_combinadas.forEach(function(elemento,indice){
